@@ -667,6 +667,7 @@ textarea {
 footer {
   width: 100%;
   background: var(--buttonColor);
+  /* color: #fff; */
   color: var(--backgroundColor);
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
@@ -678,10 +679,15 @@ footer {
   width: 15rem;
 }
 
+.footer-container .content_1 h1 {
+  color: #fff;
+}
+
 .footer-container {
   display: flex;
   justify-content: space-between;
   padding: 6rem 0;
+  /* color: #1e1f23; */
 }
 
 .footer-container h4 {
@@ -690,6 +696,7 @@ footer {
   letter-spacing: 0.1rem;
   margin-bottom: 2.5rem;
   font-size: 1.8rem;
+  /* color: #1e1f23; */
 }
 
 .footer-container a {
@@ -702,7 +709,7 @@ footer {
 
 .footer-container .content_1 p,
 .footer-container .content_4 p {
-  color: #cccccc;
+  /* color: #cccccc;2 */
   margin: 2.5rem 0;
   font-size: 1.4rem;
 }
@@ -735,7 +742,6 @@ footer {
 .f-design .f-design-txt {
   border-top: 1px solid var(--secondaryColor);
   padding: 1.6rem 0;
-  color: var(--secondaryColor);
 }
 
 /***** End Footer Section *****/
